@@ -1,8 +1,3 @@
 [gd_scene format=3 uid="uid://r36d27ixtkeg"]
 
-[ext_resource type="PackedScene" uid="uid://bar1gp65xbyt8" path="res://Scenes/logo.tscn" id="1_r150o"]
-
 [node name="Main" type="Node2D" unique_id=1987233593]
-
-[node name="Logo" parent="." unique_id=1507605665 instance=ExtResource("1_r150o")]
-position = Vector2(196, 134)
