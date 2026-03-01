@@ -3,6 +3,22 @@
 [ext_resource type="Texture2D" uid="uid://cqrtopd8ni55t" path="res://assets/sprites/16x16/16x16 Idle-Sheet.png" id="1_igli2"]
 [ext_resource type="Script" uid="uid://cvfpgoxbl4fs4" path="res://scripts/player1.gd" id="2_qir2g"]
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_dcfem"]
+atlas = ExtResource("1_igli2")
+region = Rect2(0, 80, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_snghq"]
+atlas = ExtResource("1_igli2")
+region = Rect2(20, 80, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sd87i"]
+atlas = ExtResource("1_igli2")
+region = Rect2(40, 80, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_38edh"]
+atlas = ExtResource("1_igli2")
+region = Rect2(60, 80, 20, 20)
+
 [sub_resource type="AtlasTexture" id="AtlasTexture_qir2g"]
 atlas = ExtResource("1_igli2")
 region = Rect2(0, 0, 20, 20)
@@ -19,8 +35,41 @@ region = Rect2(40, 0, 20, 20)
 atlas = ExtResource("1_igli2")
 region = Rect2(60, 0, 20, 20)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_euhpk"]
+atlas = ExtResource("1_igli2")
+region = Rect2(0, 40, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_x5ced"]
+atlas = ExtResource("1_igli2")
+region = Rect2(20, 40, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_16ml7"]
+atlas = ExtResource("1_igli2")
+region = Rect2(40, 40, 20, 20)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mod63"]
+atlas = ExtResource("1_igli2")
+region = Rect2(60, 40, 20, 20)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_dcfem"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dcfem")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_snghq")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sd87i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_38edh")
+}],
+"loop": true,
+"name": &"IdleBack",
+"speed": 6.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qir2g")
@@ -37,6 +86,23 @@ animations = [{
 "loop": true,
 "name": &"IdleFront",
 "speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_euhpk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_x5ced")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_16ml7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mod63")
+}],
+"loop": true,
+"name": &"IdleRight",
+"speed": 6.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_snghq"]
@@ -47,7 +113,7 @@ size = Vector2(8, 15)
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=456942018]
 position = Vector2(0, -10)
 sprite_frames = SubResource("SpriteFrames_dcfem")
-animation = &"IdleFront"
+animation = &"IdleBack"
 autoplay = "IdleFront"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=312592014]
