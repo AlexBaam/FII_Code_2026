@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwnaf5ryjajh"
-path="res://.godot/imported/icon.svg-b67cfb692a937e61d2bda8561d9e8db7.ctex"
+uid="uid://dje102wcj7wb5"
+path="res://.godot/imported/torch_2.png-b1f1da2d8b8472784dfee61ed95bd693.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/icon.svg"
-dest_files=["res://.godot/imported/icon.svg-b67cfb692a937e61d2bda8561d9e8db7.ctex"]
+source_file="res://assets/tilesets/Catacombs/torch_2.png"
+dest_files=["res://.godot/imported/torch_2.png-b1f1da2d8b8472784dfee61ed95bd693.ctex"]
 
 [params]
 
@@ -38,6 +38,3 @@ process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
 detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
