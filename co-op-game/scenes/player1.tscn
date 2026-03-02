@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bdinjh14tgp3m"]
 
 [ext_resource type="Texture2D" uid="uid://cqrtopd8ni55t" path="res://assets/sprites/16x16/16x16 Idle-Sheet.png" id="1_igli2"]
-[ext_resource type="Script" uid="uid://cvfpgoxbl4fs4" path="res://scripts/player1.gd" id="2_qir2g"]
+[ext_resource type="Script" uid="uid://cvfpgoxbl4fs4" path="res://scripts/PlayerScripts/player_one_movement.gd" id="2_qir2g"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dcfem"]
 atlas = ExtResource("1_igli2")

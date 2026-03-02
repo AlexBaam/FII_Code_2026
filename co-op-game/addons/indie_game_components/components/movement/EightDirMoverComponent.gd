@@ -36,7 +36,6 @@ func _ready() -> void:
 	else:
 		print("[EightDirMoverComponent] Ready and attached to: ", _parent.name)
 
-
 func _physics_process(_delta: float) -> void:
 	if _parent == null or not enabled:
 		return

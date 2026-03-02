@@ -65,7 +65,6 @@ func _get_input() -> Vector2:
 	var dir := Vector2.ZERO
 	# Support WASD
 	dir.x = float(Input.is_key_pressed(KEY_D)) - float(Input.is_key_pressed(KEY_A))
-	
 	dir.y = float(Input.is_key_pressed(KEY_S)) - float(Input.is_key_pressed(KEY_W))
 		
 	return dir

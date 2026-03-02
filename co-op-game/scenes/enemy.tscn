@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://wy127ak6ebt"]
+
+[ext_resource type="Texture2D" uid="uid://bxdb4oi1dbx0j" path="res://assets/tilesets/Enemy.png" id="1_7p1mj"]
+[ext_resource type="PackedScene" uid="uid://67me18h1276b" path="res://scenes/killzone.tscn" id="2_md0e3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_md0e3"]
+size = Vector2(14, 14)
+
+[node name="Enemy" type="Node2D" unique_id=516751529]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=667561899]
+texture = ExtResource("1_7p1mj")
+
+[node name="Killzone" parent="." unique_id=230181196 instance=ExtResource("2_md0e3")]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone" unique_id=476038857]
+shape = SubResource("RectangleShape2D_md0e3")
