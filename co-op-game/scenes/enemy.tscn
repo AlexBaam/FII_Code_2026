@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://wy127ak6ebt"]
 
-[ext_resource type="Texture2D" uid="uid://bxdb4oi1dbx0j" path="res://assets/tilesets/Enemy.png" id="1_7p1mj"]
+[ext_resource type="Texture2D" uid="uid://bxdb4oi1dbx0j" path="res://assets/sprites/Enemy.png" id="1_7p1mj"]
 [ext_resource type="PackedScene" uid="uid://67me18h1276b" path="res://scenes/killzone.tscn" id="2_md0e3"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_md0e3"]

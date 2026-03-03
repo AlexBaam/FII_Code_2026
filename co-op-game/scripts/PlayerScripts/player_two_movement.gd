@@ -65,7 +65,6 @@ func _get_input() -> Vector2:
 	var dir := Vector2.ZERO
 	# Support UI actions (arrows)
 	dir.x = Input.get_axis("ui_left", "ui_right")
-	
 	dir.y = Input.get_axis("ui_up", "ui_down")
 	
 	return dir

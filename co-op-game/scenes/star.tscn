@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://b8ugyeaibuslt"]
 
 [ext_resource type="Script" uid="uid://bxsbt0s0lvq12" path="res://scripts/star.gd" id="1_j6vao"]
-[ext_resource type="Texture2D" uid="uid://dvyhd8vs40wyv" path="res://assets/tilesets/CollectableStar.png" id="1_mcqwg"]
+[ext_resource type="Texture2D" uid="uid://dvyhd8vs40wyv" path="res://assets/sprites/CollectableStar.png" id="1_mcqwg"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_j6vao"]
 radius = 7.0

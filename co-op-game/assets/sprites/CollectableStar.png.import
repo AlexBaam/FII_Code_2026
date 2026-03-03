@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rcptujat0cma"
-path="res://.godot/imported/16x32 Walk-Sheet.png-a9ed842f316198dfb90deb55ca4c44b8.ctex"
+uid="uid://dvyhd8vs40wyv"
+path="res://.godot/imported/CollectableStar.png-6c515ff19dbd9c0716756526100ef9f7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/16x32/16x32 Walk-Sheet.png"
-dest_files=["res://.godot/imported/16x32 Walk-Sheet.png-a9ed842f316198dfb90deb55ca4c44b8.ctex"]
+source_file="res://assets/sprites/CollectableStar.png"
+dest_files=["res://.godot/imported/CollectableStar.png-6c515ff19dbd9c0716756526100ef9f7.ctex"]
 
 [params]
 

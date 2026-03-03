@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvyhd8vs40wyv"
-path="res://.godot/imported/CollectableStar.png-22c65ad8ed5275eb22275b54f9c25c4a.ctex"
+uid="uid://c83s1pwrpoova"
+path="res://.godot/imported/FullHealth.png-71dc4c7a9a50c3c10f800c352dbff0d4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tilesets/CollectableStar.png"
-dest_files=["res://.godot/imported/CollectableStar.png-22c65ad8ed5275eb22275b54f9c25c4a.ctex"]
+source_file="res://assets/sprites/FullHealth.png"
+dest_files=["res://.godot/imported/FullHealth.png-71dc4c7a9a50c3c10f800c352dbff0d4.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blcphy5bkpn02"
-path="res://.godot/imported/16x32 Idle-Sheet.png-c146ff2b5711ed6c3c9f4545dbcad1ea.ctex"
+uid="uid://bfhomv01yti75"
+path="res://.godot/imported/HalfHealth.png-a9296ceeac7151d798adae2dc51d7ab1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/16x32/16x32 Idle-Sheet.png"
-dest_files=["res://.godot/imported/16x32 Idle-Sheet.png-c146ff2b5711ed6c3c9f4545dbcad1ea.ctex"]
+source_file="res://assets/sprites/HalfHealth.png"
+dest_files=["res://.godot/imported/HalfHealth.png-a9296ceeac7151d798adae2dc51d7ab1.ctex"]
 
 [params]
 

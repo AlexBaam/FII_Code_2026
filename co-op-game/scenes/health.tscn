@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bndmg2is1l4af"]
+
+[ext_resource type="Texture2D" uid="uid://c83s1pwrpoova" path="res://assets/sprites/FullHealth.png" id="1_2rad1"]
+[ext_resource type="Script" uid="uid://cbn0feb7ticyv" path="res://scenes/health.gd" id="1_58c75"]
+[ext_resource type="Texture2D" uid="uid://bfhomv01yti75" path="res://assets/sprites/HalfHealth.png" id="2_58c75"]
+
+[node name="Health" type="Node2D" unique_id=211616605]
+script = ExtResource("1_58c75")
+
+[node name="FullHealth" type="Sprite2D" parent="." unique_id=697624793]
+texture = ExtResource("1_2rad1")
+
+[node name="HalfHealth" type="Sprite2D" parent="." unique_id=743696044]
+texture = ExtResource("2_58c75")
