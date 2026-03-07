@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Inv" format=3 uid="uid://cx3rtjo5fq80p"]
+
+[ext_resource type="Script" uid="uid://b6jay7y7wd68e" path="res://inventory/inventory_item.gd" id="1_ykjtg"]
+[ext_resource type="Resource" uid="uid://cwlpbj5t6q7ux" path="res://inventory/items/apple.tres" id="2_ynaes"]
+[ext_resource type="Script" uid="uid://rgeoamqd6ljh" path="res://inventory.gd" id="3_5mpug"]
+
+[resource]
+script = ExtResource("3_5mpug")
+items = Array[ExtResource("1_ykjtg")]([ExtResource("2_ynaes")])
+metadata/_custom_type_script = "uid://rgeoamqd6ljh"

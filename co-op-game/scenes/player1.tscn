@@ -2,6 +2,9 @@
 
 [ext_resource type="Texture2D" uid="uid://cqrtopd8ni55t" path="res://assets/sprites/16x16/16x16 Idle-Sheet.png" id="1_igli2"]
 [ext_resource type="Script" uid="uid://cvfpgoxbl4fs4" path="res://scripts/PlayerScripts/player_one_movement.gd" id="2_qir2g"]
+[ext_resource type="Script" uid="uid://djsmu7qi1d1ha" path="res://Scenes/inventory_manager.gd" id="3_rliju"]
+[ext_resource type="Resource" uid="uid://cx3rtjo5fq80p" path="res://inventory/player1inv.tres" id="4_l2cxq"]
+[ext_resource type="PackedScene" uid="uid://c46ijqivpdirw" path="res://inventory/Inv_UI.tscn" id="5_8k31v"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dcfem"]
 atlas = ExtResource("1_igli2")
@@ -123,3 +126,13 @@ shape = SubResource("RectangleShape2D_snghq")
 
 [node name="MovementScriptHolder" type="Node2D" parent="." unique_id=1761123811]
 script = ExtResource("2_qir2g")
+
+[node name="InventoryManager" type="Node2D" parent="." unique_id=178496424]
+script = ExtResource("3_rliju")
+inv = ExtResource("4_l2cxq")
+
+[node name="Inv_UI" parent="." unique_id=44971926 instance=ExtResource("5_8k31v")]
+offset_left = -43.0
+offset_top = -60.0
+offset_right = 42.0
+offset_bottom = -17.0

@@ -1,6 +1,7 @@
 extends Node
 class_name PlayerOneMovement
 
+
 ## Emitted every frame that the character is moving, with the normalized direction.
 signal direction_changed(new_direction: Vector2)
 
