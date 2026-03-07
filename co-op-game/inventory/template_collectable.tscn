@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://5i7uwctrgajn"]
+
+[ext_resource type="Script" uid="uid://vdjs3nk3ku4q" path="res://template_collectable.gd" id="1_omjc6"]
+[ext_resource type="Resource" uid="uid://cgfhbb3wfo6ij" path="res://inventory/items/template.tres" id="2_buq62"]
+[ext_resource type="Texture2D" uid="uid://dvyhd8vs40wyv" path="res://assets/sprites/CollectableStar.png" id="3_a5273"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5rkpy"]
+radius = 19.0
+
+[node name="template_collectable" type="StaticBody2D" unique_id=1200466961]
+script = ExtResource("1_omjc6")
+item = ExtResource("2_buq62")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=48027569]
+texture = ExtResource("3_a5273")
+
+[node name="interactable_area" type="Area2D" parent="." unique_id=217982661]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="interactable_area" unique_id=936404868]
+shape = SubResource("CircleShape2D_5rkpy")
+
+[connection signal="body_entered" from="interactable_area" to="." method="_on_interactable_area_body_entered"]

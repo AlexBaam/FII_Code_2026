@@ -46,7 +46,6 @@ animations = [{
 size = Vector2(8, 15)
 
 [node name="Player2" type="CharacterBody2D" unique_id=1390974414]
-collision_layer = 2
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1011887835]
 position = Vector2(0, -10)

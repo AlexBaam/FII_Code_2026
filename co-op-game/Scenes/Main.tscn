@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://81ghnpck7hhd" path="res://assets/tilesets/Jose Javier (SnowHex) - All Tiles Free Ver..png" id="3_sugp2"]
 [ext_resource type="PackedScene" uid="uid://b8ugyeaibuslt" path="res://Scenes/star.tscn" id="4_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://wy127ak6ebt" path="res://Scenes/enemy.tscn" id="5_tbgi4"]
+[ext_resource type="PackedScene" uid="uid://5i7uwctrgajn" path="res://inventory/template_collectable.tscn" id="6_v1gob"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jyhfs"]
 texture = ExtResource("3_sugp2")
@@ -88,7 +89,7 @@ zoom = Vector2(3, 3)
 [node name="CollectableStars" type="Node" parent="." unique_id=753329485]
 
 [node name="Star" parent="CollectableStars" unique_id=151198979 instance=ExtResource("4_jyhfs")]
-position = Vector2(245, 105)
+position = Vector2(75, 161)
 
 [node name="Star2" parent="CollectableStars" unique_id=636339396 instance=ExtResource("4_jyhfs")]
 position = Vector2(80, 129)
@@ -102,4 +103,10 @@ position = Vector2(66, 86)
 position = Vector2(202, 84)
 
 [node name="Enemy" parent="." unique_id=516751529 instance=ExtResource("5_tbgi4")]
-position = Vector2(259, 143)
+position = Vector2(42, 145)
+
+[node name="template_collectable3" parent="." unique_id=1200466961 instance=ExtResource("6_v1gob")]
+position = Vector2(246, 182)
+
+[node name="template_collectable2" parent="." unique_id=2107119546 instance=ExtResource("6_v1gob")]
+position = Vector2(192, 147)

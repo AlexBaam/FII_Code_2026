@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="InvItem" format=3 uid="uid://cgfhbb3wfo6ij"]
+
+[ext_resource type="Script" uid="uid://b6jay7y7wd68e" path="res://inventory/inventory_item.gd" id="1_5evij"]
+[ext_resource type="Texture2D" uid="uid://dvyhd8vs40wyv" path="res://assets/sprites/CollectableStar.png" id="2_fj4os"]
+
+[resource]
+script = ExtResource("1_5evij")
+name = "template"
+texture = ExtResource("2_fj4os")
+metadata/_custom_type_script = "uid://b6jay7y7wd68e"
